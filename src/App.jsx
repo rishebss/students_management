@@ -7,6 +7,7 @@ import StudentDetails from './pages/StudentDetails'
 import Attendance from './pages/Attendance'
 import Calendar from './pages/Calendar'
 import Payments from './pages/PaymentsPage'
+import TermsAndConditions from './pages/TermsAndConditions'
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <Route path="/attendance" element={<Attendance />} />
             <Route path="/calendar" element={<Calendar />} />
             <Route path="/payments" element={<Payments />} />
+            <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
             <Route path="*" element={<Home />} />
           </Routes>
         </main>

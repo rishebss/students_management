@@ -106,6 +106,12 @@ function Navbar() {
         >
           Payments
         </Link>
+        <Link 
+          to="/terms-and-conditions" 
+          className="text-gray-300 hover:text-white transition-colors px-4 py-2 rounded-lg hover:bg-white/5 font-medium"
+        >
+          Terms & Conditions
+        </Link>
         
        
         
@@ -185,6 +191,13 @@ function Navbar() {
               onClick={() => setIsMenuOpen(false)}
             >
               Payments
+            </Link>
+            <Link 
+              to="/terms-and-conditions" 
+              className="text-gray-300 hover:text-white transition-colors px-4 py-3 rounded-lg hover:bg-white/5 font-medium"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Terms & Conditions
             </Link>
             <button 
               onClick={handleLogout}
